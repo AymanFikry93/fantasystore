@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "399218291440",
+    "firebase_url": "https://fantasy-store-default-rtdb.firebaseio.com",
+    "project_id": "fantasy-store",
+    "storage_bucket": "fantasy-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399218291440:android:578eaabbe00a4e29c1c835",
+        "android_client_info": {
+          "package_name": "com.fantasystore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399218291440-itd362d92fhu522fi4c0ibrdmiheguhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdORv7KhqIVbEzQPjxQOz-GBym0kWvjNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399218291440-itd362d92fhu522fi4c0ibrdmiheguhf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

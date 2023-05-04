@@ -11,4 +11,4 @@ workflows:
     triggering:
        events:
         - push
-        -branch: your-branch-name
+        -branch: dev_branch

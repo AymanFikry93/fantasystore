@@ -19,7 +19,7 @@ class RouteGenerator {
 
     switch (name) {
       case ThemeScreen.routeName:
-        return MaterialPageRoute(builder: (_) =>  ThemeScreen());
+        return MaterialPageRoute(builder: (_) =>  const ThemeScreen());
       case LoginPage.routeName:
         return MaterialPageRoute(builder: (_) =>  LoginPage());
       case SplashAppScreen.routeName:

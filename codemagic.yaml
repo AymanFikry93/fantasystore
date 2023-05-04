@@ -13,4 +13,3 @@ workflows:
         - pattern: 'dev_branch'
           include: true
           source: true
-

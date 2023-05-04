@@ -1,0 +1,14 @@
+workflows:
+  flutter_build:
+    name: "Flutter Build"
+    scripts:
+      - name: "Install dependencies"
+        script: flutter pub get
+      - name: "Run tests"
+        script: flutter test
+      - name: "Build APK"
+        script: flutter build apk --release
+    triggering:
+       events:
+        - push
+        -branch: your-branch-name

@@ -37,5 +37,6 @@ class DateUtilities {
     String dateFormat =
     DateFormat(format ?? "hh:mm a",  AppConstants.navigatorKey.currentContext!.locale.languageCode,).format(date);
     return dateFormat;
+
   }
 }

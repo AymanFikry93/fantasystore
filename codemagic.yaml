@@ -4,8 +4,8 @@ workflows:
     scripts:
       - name: "Install dependencies"
         script: flutter pub get
-      - name: "Build APK"
-        script: flutter build apk
+      - name: "Build flutter build web --web-renderer html --release"
+        script: flutter build web --web-renderer html --release
     triggering:
       events:
         - push

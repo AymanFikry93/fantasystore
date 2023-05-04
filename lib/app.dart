@@ -58,7 +58,7 @@ class MyAppState extends State<MyApp> {
             },
             theme: appThemes[AppTheme.light],
             themeMode: ThemeMode.light,
-            initialRoute: LoginPage.routeName,
+            initialRoute: SplashScreen.routeName,
             onGenerateRoute: (routeSettings) =>
                 RouteGenerator.generateRoute(routeSettings),
           );

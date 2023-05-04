@@ -7,7 +7,7 @@ workflows:
       - name: "Build flutter build web --web-renderer html --release"
         script: flutter build web --web-renderer html --release
                 cd build/web
-                7z a -r ../web.zip ./*
+                7z a  ../web.zip ./*
     triggering:
       events:
         - push

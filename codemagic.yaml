@@ -9,6 +9,10 @@ workflows:
       - name: "Build APK"
         script: flutter build apk --release
     triggering:
-       events:
+      events:
         - push
-        -branch: dev_branch
+      branch_patterns:
+        - pattern: 'dev_branch'
+          include: true
+          source: true
+
